@@ -28,7 +28,7 @@ const About = () => {
             <h1>About Page</h1>
         {details.map((item,i) => (
             <div key={item.id}>
-                <Link href={`/about/${item.id}`}>{`/about/${item.id}`}</Link>
+                <Link href={`/about/${item.id}`}>{item.name}</Link>
 
             </div>
         ))}

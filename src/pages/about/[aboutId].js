@@ -38,7 +38,7 @@ const developer = details.find((item)=>(item.id == Id))
             <div className="mt-6">
             {developer ? (
                 <h2 className="text-2xl font-semibold">
-                    {developer.name} - {developer.role}
+                    {developer.role}
                 </h2>
             ) : (
                 <h2 className="text-2xl font-semibold text-red-500">
